@@ -1,0 +1,32 @@
+.form{ max-width: 680px;
+}
+fieldset{ 
+    padding: 20px;
+    margin: 20px 0;
+}
+fieldset legend{
+    background-color: var(--color-dark-blue);
+    width: 100%;
+    text-transform: capitalize;
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+    color: var(--color-white);
+}
+fieldset div{
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+fieldset label{ flex-basis: 120px;
+}
+fieldset input:not([type="radio"]), textarea, select{
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    flex: 1;
+}
+
+form button{ 
+    max-width: 220px;
+    font-size: var(--font-size-small);
+    font-weight: var(font--weight-bold);
+}

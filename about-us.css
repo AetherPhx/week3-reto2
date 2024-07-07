@@ -1,0 +1,11 @@
+.about-us{
+    width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50px;
+}
+.about-us > .img{ width: 50%;
+}
+.about-us > .text{ width: 50%;
+}

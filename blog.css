@@ -1,0 +1,27 @@
+main{ margin-bottom: 50px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 40px;
+}
+.content h2{ text-align: start;
+}
+.post__text{ padding: 20px;
+}
+.post__info{
+    margin-bottom: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.post__info p{ 
+    margin: 18px 0;
+    font-weight: var(--font-weight-bold);
+}
+.hl-text{ color: var(--color-blue);
+}
+p{ margin: 20px 0;
+}
+button{ width: 300px;
+}
