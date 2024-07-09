@@ -16,6 +16,7 @@ section{ margin: 56px 0;
     font-size: 22.5px;
     text-align: center;
     border-bottom-right-radius: 1rem;
+    transition: background-color 0.5s;
 }
 
 /** About Us */
